@@ -6,7 +6,7 @@ export function HelpIcon() {
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      className="w-6 h-6 text-white"
+      className="w-6 h-6 text-white hover:text-orange-200 cursor-pointer"
     >
       <path
         stroke-linecap="round"

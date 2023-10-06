@@ -6,7 +6,7 @@ export function UserIcon() {
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      className="w-10 h-10 text-white"
+      className="w-10 h-10 text-white hover:text-orange-200 cursor-pointer"
     >
       <path
         stroke-linecap="round"

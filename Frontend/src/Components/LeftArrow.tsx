@@ -1,4 +1,4 @@
-export function LeftArrow() {
+export function LeftArrow({ toggle }: { toggle: () => void }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -7,6 +7,7 @@ export function LeftArrow() {
       stroke-width="1.5"
       stroke="currentColor"
       className="w-8 h-8 text-white hover:text-orange-400 cursor-pointer hover:scale-125 transition-all ease-in-out duration-300"
+      onClick={toggle}
     >
       <path
         stroke-linecap="round"
