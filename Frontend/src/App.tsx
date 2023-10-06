@@ -1,9 +1,11 @@
-import { Homepage } from "./Pages/Homepage";
+import { Sidebar } from "./Components/Sidebar";
+import { AllRoutes } from "./Routes/AllRoutes";
 
 export default function App() {
   return (
-    <div className="App">
-      <Homepage />
-    </div>
+    <main className="bg-orange-600 h-screen flex w-full">
+      <Sidebar />
+      <AllRoutes />
+    </main>
   );
 }
